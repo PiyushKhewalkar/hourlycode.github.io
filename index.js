@@ -6,3 +6,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         })
     })
 })
+
+
+
+const button = document.querySelector('button');
+const dropdown = document.querySelector('ul');
+
+button.addEventListener('click', () => {
+  dropdown.classList.toggle('hidden');
+});

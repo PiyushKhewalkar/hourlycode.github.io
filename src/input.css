@@ -735,4 +735,7 @@ pricing slider
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
 
+  .hidden {
+    display: none;
+  }
   
