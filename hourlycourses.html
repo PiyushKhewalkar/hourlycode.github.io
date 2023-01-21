@@ -5,61 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-    <section>
+    <header class="flex justify-between items-center pt-7 pb-4 md:px-10 px-5">
+        <img src="images/HourlyCode logo.svg" alt="" class="md:h-20 h-16" />
+        <ul class="lg:flex hidden space-x-10 items-center">
+          <li><a href="#Home" class="font-medium text-lg">Home</a></li>
+          <li>
+            <a href="#Courses" class=""
+              ><div class="dropdown z-[110]">
+                <button class="dropbtn font-medium text-lg">Courses</button>
+                <div
+                  class="dropdown-content bg-white shadow-lg rounded-xl max-w-[30rem] text-center"
+                >
+                  <a href="hourlycourses.html" class="hover:bg-gray-100 font-medium"
+                    >Hourly Curriculum
+                  </a>
+                  <a href="#" class="hover:bg-gray-100 font-medium mb-4"
+                    >Specialization Course</a
+                  >
+                </div>
+              </div></a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="font-medium text-lg">Contact</a>
+          </li>
+          <li>
+            <a
+              href="#BookADemo"
+              class="font-medium scale-100 hover:scale-110 duration-300 text-lg px-7 py-3 rounded-full bg-black text-white hover:border hover:border-black hover:bg-transparent hover:text-black"
+              >Book a <span class="font-semibold">FREE</span> Trial</a
+            >
+          </li>
+        </ul>
+        <img src="images/menu.svg" alt="" class="h-10 md:h-16 lg:hidden" />
+      </header>
+    <section class="lg:mx-20 md:mx-10 mx-5">
         <div class="text-center">
-            <h1>Hourly's Courses</h1>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
+            <div class="text-center space-y-5 mt-20 mb-16">
+              <h1 class="lg:text-4xl font-medium text-2xl">
+                Hourly Fixed Curriculum
+              </h1>
+              <p class="lg:text-lg font-medium text-gray-600">
+                Child-Pace Curriculum desigined by TOP Instructors of Hourly
+              </p>
+            </div>
+          </div>
 
-        <div class="grid space-x-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-3 md:grid-rows-2 lg:grid-rows-1 max-w-fit mx-auto items-center">
-            <div class="p-5 rounded-lg shadow-lg space-y-3 w-[20rem] border">
+        <div class="justify-between items-center hidden">
+            <div class="p-5 rounded-lg shadow-lg space-y-3 border">
                 <div class="relative h-[15rem] flex flex-col items-center justify-center">
                 <img src="images/two red puzzles.svg" class="w-[10rem]" alt="">
                 <p class="absolute left-0 bottom-0 max-w-fit py-[0.1rem] px-[0.5rem] border-2 rounded-full bg-black text-white">70 Classes</p>
                 </div>
                 <h1 class="text-2xl text-center md:text-3xl font-semibold">Coding Junior</h1>
+                <p class="text-gray-700 font-medium text-center">Your Ticket to the Digital World</p>
                 <div class="space-y-1">
                 <p>⌚Duration: 9 Months</p>
                 <p>🏆Get Certificate</p>
                 <p>🚀Develop Apps and Games</p>
-                <a href="#viewmore" class="text-blue-600 text-center w-full">Learn More</a>
                 </div>
                 <div class="flex flex-col md:flex-row md:justify-between space-y-2 md:space-y-0 md:space-x-2">
                     <a href="" class="w-full md:max-w-[1/2] text-center bg-[#ff5c00] text-white px-3 py-2 rounded-full">Enroll</a>
                     <a href="" class="w-full md:max-w-[1/2] text-center bg-black px-3 py-2 text-white rounded-full">View Details</a>
                 </div>
             </div>
-            <div class="p-5 rounded-lg shadow-lg space-y-3 w-[20rem] border">
+            <div class="p-5 rounded-lg shadow-lg space-y-3 border">
                 <div class="relative h-[15rem] flex flex-col items-center justify-center">
                 <img src="images/two red puzzles.svg" class="w-[10rem]" alt="">
                 <p class="absolute left-0 bottom-0 max-w-fit py-[0.1rem] px-[0.5rem] border-2 rounded-full bg-black text-white">70 Classes</p>
                 </div>
-                <h1 class="text-2xl text-center md:text-3xl font-semibold">Coding Junior</h1>
+                <h1 class="text-2xl text-center md:text-3xl font-semibold">Coding Champion</h1>
+                <p class="text-gray-700 font-medium text-center">Your Ticket to the Digital World</p>
                 <div class="space-y-1">
                 <p>⌚Duration: 9 Months</p>
                 <p>🏆Get Certificate</p>
                 <p>🚀Develop Apps and Games</p>
-                <a href="#viewmore" class="text-blue-600 text-center w-full">Learn More</a>
                 </div>
                 <div class="flex flex-col md:flex-row md:justify-between space-y-2 md:space-y-0 md:space-x-2">
                     <a href="" class="w-full md:max-w-[1/2] text-center bg-[#ff5c00] text-white px-3 py-2 rounded-full">Enroll</a>
                     <a href="" class="w-full md:max-w-[1/2] text-center bg-black px-3 py-2 text-white rounded-full">View Details</a>
                 </div>
             </div>
-            <div class="p-5 rounded-lg shadow-lg space-y-3 w-[20rem] border">
+            <div class="p-5 rounded-lg shadow-lg space-y-3 border">
                 <div class="relative h-[15rem] flex flex-col items-center justify-center">
                 <img src="images/two red puzzles.svg" class="w-[10rem]" alt="">
                 <p class="absolute left-0 bottom-0 max-w-fit py-[0.1rem] px-[0.5rem] border-2 rounded-full bg-black text-white">70 Classes</p>
                 </div>
-                <h1 class="text-2xl text-center md:text-3xl font-semibold">Coding Junior</h1>
+                <h1 class="text-2xl text-center md:text-3xl font-semibold">Coding Master</h1>
+                <p class="text-gray-700 font-medium text-center">Your Ticket to the Digital World</p>
                 <div class="space-y-1">
                 <p>⌚Duration: 9 Months</p>
                 <p>🏆Get Certificate</p>
                 <p>🚀Develop Apps and Games</p>
-                <a href="#viewmore" class="text-blue-600 text-center w-full">Learn More</a>
                 </div>
                 <div class="flex flex-col md:flex-row md:justify-between space-y-2 md:space-y-0 md:space-x-2">
                     <a href="" class="w-full md:max-w-[1/2] text-center bg-[#ff5c00] text-white px-3 py-2 rounded-full">Enroll</a>
@@ -68,5 +114,77 @@
             </div>
         </div>
     </section>
+
+    <div class="bg-white px-4 sm:px-6 lg:px-8">
+        <div class="max-w-screen-xl mx-auto text-center">
+          <div class="mt-6">
+            <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 gap-x-5">
+              <div
+                class="flex flex-col text-center hover:scale-110 scale-100 duration-300 shadow-xl rounded-2xl border"
+              >
+              <div class="px-4 py-8 space-y-2">
+                <div class="relative h-[15rem] flex flex-col items-center justify-center">
+                    <img src="images/two red puzzles.svg" class="w-[10rem]" alt="">
+                    <p class="absolute left-0 bottom-0 max-w-fit py-[0.1rem] px-[0.5rem] border-2 rounded-full bg-black text-white">70 Classes</p>
+                    </div>
+                    <h1 class="text-2xl text-center md:text-3xl font-semibold">Coding Junior</h1>
+                    <p class="text-gray-700 font-medium text-center">Your Ticket to the Digital World</p>
+                    <div class="space-y-1 text-left">
+                    <p>⌚Duration: 9 Months</p>
+                    <p>🏆Get Certificate</p>
+                    <p>🚀Develop Apps and Games</p>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:justify-between space-y-2 md:space-y-0 md:space-x-2 mt-10">
+                        <a href="" class="w-full md:max-w-[1/2] text-center bg-[#ff5c00] text-white px-3 py-2 rounded-full">Enroll</a>
+                        <a href="" class="w-full md:max-w-[1/2] text-center bg-black px-3 py-2 text-white rounded-full">View Details</a>
+                    </div>
+            </div>
+              </div>
+              <div
+                class="flex flex-col text-center hover:scale-110 scale-100 duration-300 shadow-xl rounded-2xl border"
+              >
+                <div class="px-4 py-8 space-y-2">
+                    <div class="relative h-[15rem] flex flex-col items-center justify-center">
+                        <img src="images/two red puzzles.svg" class="w-[10rem]" alt="">
+                        <p class="absolute left-0 bottom-0 max-w-fit py-[0.1rem] px-[0.5rem] border-2 rounded-full bg-black text-white">70 Classes</p>
+                        </div>
+                        <h1 class="text-2xl text-center md:text-3xl font-semibold">Coding Champion</h1>
+                        <p class="text-gray-700 font-medium text-center">Transform yourself into a Coding Champion</p>
+                        <div class="space-y-1 text-left">
+                        <p>⌚Duration: 9 Months</p>
+                        <p>🏆Get Certificate</p>
+                        <p>🚀Develop Apps and Games</p>
+                        </div>
+                        <div class="flex flex-col md:flex-row md:justify-between space-y-2 md:space-y-0 md:space-x-2 mt-10">
+                            <a href="" class="w-full md:max-w-[1/2] text-center bg-[#ff5c00] text-white px-3 py-2 rounded-full">Enroll</a>
+                            <a href="" class="w-full md:max-w-[1/2] text-center bg-black px-3 py-2 text-white rounded-full">View Details</a>
+                        </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col text-center hover:scale-110 scale-100 duration-300 shadow-xl rounded-2xl border"
+              >
+              <div class="px-4 py-8 space-y-2">
+                <div class="relative h-[15rem] flex flex-col items-center justify-center">
+                    <img src="images/two red puzzles.svg" class="w-[10rem]" alt="">
+                    <p class="absolute left-0 bottom-0 max-w-fit py-[0.1rem] px-[0.5rem] border-2 rounded-full bg-black text-white">70 Classes</p>
+                    </div>
+                    <h1 class="text-2xl text-center md:text-3xl font-semibold">Coding Master</h1>
+                    <p class="text-gray-700 font-medium text-center">The ultimate destination for coding mastery</p>
+                    <div class="space-y-1 text-left">
+                    <p>⌚Duration: 9 Months</p>
+                    <p>🏆Get Certificate</p>
+                    <p>🚀Develop Apps and Games</p>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:justify-between space-y-2 md:space-y-0 md:space-x-2 mt-10">
+                        <a href="" class="w-full md:max-w-[1/2] text-center bg-[#ff5c00] text-white px-3 py-2 rounded-full">Enroll</a>
+                        <a href="" class="w-full md:max-w-[1/2] text-center bg-black px-3 py-2 text-white rounded-full">View Details</a>
+                    </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>

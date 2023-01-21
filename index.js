@@ -17,3 +17,12 @@ button.addEventListener('click', () => {
 });
 
 
+const dropdownbutton = document.getElementById('drop-down')
+const level1 = document.getElementById('level1')
+
+const dropdownclicked = () => {
+    console.log('hi')
+}
+
+dropdownbutton.addEventListener('click', dropdownclicked)
+
