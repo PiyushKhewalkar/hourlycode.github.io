@@ -623,6 +623,14 @@ video {
   left: 0px;
 }
 
+.left-2{
+  left: 0.5rem;
+}
+
+.bottom-2{
+  bottom: 0.5rem;
+}
+
 .-top-60{
   top: -15rem;
 }
@@ -657,14 +665,6 @@ video {
 
 .-bottom-7{
   bottom: -1.75rem;
-}
-
-.left-2{
-  left: 0.5rem;
-}
-
-.bottom-2{
-  bottom: 0.5rem;
 }
 
 .z-\[110\]{
@@ -846,14 +846,6 @@ video {
   margin-left: 0.25rem;
 }
 
-.mt-20{
-  margin-top: 5rem;
-}
-
-.mb-16{
-  margin-bottom: 4rem;
-}
-
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -878,6 +870,14 @@ video {
   margin-left: 2rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .mb-20{
   margin-bottom: 5rem;
 }
@@ -896,6 +896,18 @@ video {
 
 .mb-9{
   margin-bottom: 2.25rem;
+}
+
+.mt-96{
+  margin-top: 24rem;
+}
+
+.mt-\[\]{
+  margin-top: ;
+}
+
+.mt-\[30rem\]{
+  margin-top: 30rem;
 }
 
 .block{
@@ -951,16 +963,16 @@ video {
   height: 15rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .h-64{
   height: 16rem;
 }
 
 .h-4{
   height: 1rem;
-}
-
-.h-full{
-  height: 100%;
 }
 
 .h-20{
@@ -977,10 +989,6 @@ video {
 
 .h-12{
   height: 3rem;
-}
-
-.h-\[\]{
-  height: ;
 }
 
 .w-48{
@@ -2996,12 +3004,12 @@ pricing slider
     margin-top: 0px;
   }
 
-  .md\:ml-12{
-    margin-left: 3rem;
-  }
-
   .md\:mb-16{
     margin-bottom: 4rem;
+  }
+
+  .md\:ml-12{
+    margin-left: 3rem;
   }
 
   .md\:block{
