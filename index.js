@@ -26,11 +26,12 @@ const dropdownclicked = () => {
 
 dropdownbutton.addEventListener('click', dropdownclicked)
 
-// Grab HTML Elements
-const btn = document.querySelector("button.mobile-menu-button");
-const menu = document.querySelector(".mobile-menu");
+const mobile_nav = document.querySelector(".mobile-navbar-btn");
+const nav_header = document.querySelector(".header");
 
-// Add Event Listeners
-btn.addEventListener("click", () => {
-	menu.classList.toggle("hidden");
-});
+const toggleNavbar = () => {
+  nav_header.classList.toggle("active");
+};
+
+mobile_nav.addEventListener("click", () => toggleNavbar());
+
