@@ -3663,6 +3663,11 @@ input[type=number] {
     width: 25%;
   }
 
+  .lg\:w-fit{
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .lg\:max-w-screen-lg{
     max-width: 1024px;
   }
