@@ -796,7 +796,6 @@ body {
 .navbar-link:link,
 .navbar-link:visited {
   display: inline-block;
-  text-transform: uppercase;
   text-decoration: none;
   
   font-weight: 500;
@@ -838,9 +837,8 @@ Responsive Codes
 @media (max-width: 62em) {
   .mobile-navbar-btn {
     display: block;
-    z-index: 9999;
-    border: 3px solid #212529;
-    color: white;
+    z-index: 99999;
+    color: black;
   }
 
   .header {
@@ -853,12 +851,12 @@ Responsive Codes
     /* display: none; */
     width: 100%;
     height: 100vh;
-    background: black;
+    background: white;
     position: absolute;
     top: 0;
     left: 0;
 
-    z-index: 333333;
+    z-index: 3333;
 
     display: flex;
     justify-content: center;
