@@ -3659,13 +3659,13 @@ input[type=number] {
     width: 30rem;
   }
 
-  .lg\:w-1\/4{
-    width: 25%;
-  }
-
   .lg\:w-fit{
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .lg\:w-1\/4{
+    width: 25%;
   }
 
   .lg\:max-w-screen-lg{
