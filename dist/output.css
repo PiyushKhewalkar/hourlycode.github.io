@@ -564,6 +564,10 @@ video {
   pointer-events: none;
 }
 
+.invisible{
+  visibility: hidden;
+}
+
 .fixed{
   position: fixed;
 }
@@ -1016,6 +1020,11 @@ video {
   height: 100vh;
 }
 
+.max-h-fit{
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
 .w-1{
   width: 0.25rem;
 }
@@ -1247,6 +1256,10 @@ video {
 
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -1530,6 +1543,14 @@ video {
 .bg-\[\#1c1d1f\]{
   --tw-bg-opacity: 1;
   background-color: rgb(28 29 31 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-30{
+  --tw-bg-opacity: 0.3;
 }
 
 .bg-gradient-to-r{
@@ -2001,6 +2022,10 @@ video {
 
 .opacity-0{
   opacity: 0;
+}
+
+.opacity-50{
+  opacity: 0.5;
 }
 
 .shadow{
